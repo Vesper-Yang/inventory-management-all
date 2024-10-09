@@ -23,13 +23,13 @@ export interface PurchaseSummary {
 }
 
 export interface ExpenseSummary {
-  expenseSummaryID: string;
+  expenseSummaryId: string;
   totalExpenses: number;
-  date:string;
+  date: string;
 }
 
 export interface ExpenseByCategorySummary {
-  expenseCategorySummaryId: string;
+  expenseByCategorySummaryId: string;
   category: string;
   amount: string;
   date: string;
