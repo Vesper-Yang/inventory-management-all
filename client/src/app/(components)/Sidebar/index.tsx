@@ -105,7 +105,7 @@ const Sidebar = () => {
           isCollapsed={isSidebarCollapsed}
         />
         <SidebarLink
-          href="/setting"
+          href="/settings"
           icon={SlidersHorizontal}
           label="Setting"
           isCollapsed={isSidebarCollapsed}
